@@ -3,10 +3,10 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 gem 'pg'
 gem 'jwt'
-gem 'rails', '7.1.0'
+gem 'rails', '7.1.3.1'
 gem 'image_processing', '1.12.2'
 gem 'mini_magick',                '4.9.5'
-gem 'active_storage_validations', '0.8.3'
+gem 'active_storage_validations', '0.8.4'
 gem 'bcrypt',                     '3.1.13'
 gem 'faker',                      '2.1.2'
 gem 'will_paginate',              '3.1.8'
@@ -14,7 +14,7 @@ gem 'bootstrap-will_paginate',    '1.0.0'
 gem 'bootstrap-sass',             '3.4.1'
 gem 'puma', '5.6.7'
 gem 'sass-rails', '6.0.0'
-gem 'webpacker', '4.1.0'
+gem 'webpacker', '4.2.0'
 gem 'turbolinks',                 '5.2.0'
 gem 'jbuilder', '2.10.0'
 gem 'bootsnap',                   '1.4.5', require: false
@@ -25,16 +25,16 @@ group :development, :test do
 end
 
 group :development do
-  gem 'web-console', '4.0.2'
+  gem 'web-console', '4.0.3'
   gem 'listen',                '3.1.5'
   gem 'spring',                '2.1.0'
   gem 'spring-watcher-listen', '2.0.1'
 end
 
 group :test do
-  gem 'capybara', '3.29.0'
+  gem 'capybara', '3.30.0'
   gem 'selenium-webdriver',       '3.142.4'
-  gem 'webdrivers', '4.1.3'
+  gem 'webdrivers', '4.2.0'
   gem 'rails-controller-testing', '1.0.5'
   gem 'minitest',                 '5.11.3'
   gem 'minitest-reporters',       '1.3.8'
