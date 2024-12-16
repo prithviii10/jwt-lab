@@ -3,10 +3,10 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 gem 'pg'
 gem 'jwt'
-gem 'rails', '7.1.0'
+gem 'rails', '7.1.5.1'
 gem 'image_processing', '1.12.2'
 gem 'mini_magick',                '4.9.5'
-gem 'active_storage_validations', '0.8.3'
+gem 'active_storage_validations', '0.9.6'
 gem 'bcrypt',                     '3.1.13'
 gem 'faker',                      '2.1.2'
 gem 'will_paginate',              '3.1.8'
